@@ -9,6 +9,9 @@ Created on Wed Sep 14 19:19:52 2016
 # Math 501
 # Chris Porter
 
+#Overall Comment: Very good assignment! You tried to cover all essential situations and commented them well. Since you can
+#complete the tasks well, I recommend you to try different methods to figure out which one is more efficient. I have commented
+#with "Comment:  " so you may have a look. If any misunderstanding happened, please feel free to email me.
 
 # 1.)
 def max(x,y):
@@ -21,7 +24,8 @@ def max(x,y):
     
     ctp - Fall 2016
     ''' 
-    
+#For the contend between the """, there should be mainly three things, the question, the input parameters, and what kind
+#of output do you expect. This will not affect your grade, just friendly reminder.
     var = [x,y]     # initialize the list var
     for num in var: # this for loop checks that each variable in var is a 
                     # number and asks the user to change variables if not.
@@ -36,7 +40,8 @@ def max(x,y):
     else:           # y is greater than or equal to y, making y the maximum 
         return y    # value, so return y.
 
-
+#Comment: For the function name, try to not conflict with the default function of python. How about the x==y situation output?
+# You should add examples for your functions.
 
 # 2.)
 def max_of_three(x,y,z):    
@@ -89,7 +94,7 @@ def stringorlist_length(stringorlist):
         a += 1           # add 1 to our return variable which stores the length        
             
     return a
-
+#Comment: Actually, you can use 'i' to substitute the 'element' you used here.
 
 
 # 4.)
@@ -119,7 +124,7 @@ def thevowels(char):
     
     return False         # If our character parameter is not a vowel, return 
                          # False
-
+#Comment: use the loop as "if...else..."
 
 # 5.)
 def translate(stringy):
