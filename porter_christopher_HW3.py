@@ -10,7 +10,7 @@ The matplotlib.pyplot library is used for plotting histograms.
 
 ctp Fall 2016
 """
-
+#Overall Comment: Good exercise and your comments and format is really good. 
 
 import pandas as pd
 import matplotlib.pyplot as plt    
@@ -47,6 +47,7 @@ df = pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/iris/
                                              # the result is a dataframe with the sepal & petal's length & width, and a class
                                              # variable
 
+#Comment: Actually you don't need to create a local header file, you can save the names to one string and name the data.
 
  # 2.)
 '''
