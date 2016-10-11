@@ -9,7 +9,9 @@ Created on Thu Sep 22 11:11:41 2016
 # Math 510
 # Chris Porter
 
-
+#Overall comment: Very good exercise and explanations. You have commented all your thoughts in detail and the logic is very
+#                 clear which is good for your future review. But I suggest you to simplify your logic or improve efficiency
+#                 with advanced functions.
 
 # 1.)
 def palindrome_reader(file):
@@ -75,7 +77,8 @@ def palindrome_reader(file):
     
     filereader.close() # close the file
         
-    
+#Comment: This method do work. Since you can complete this task, I suggest you to find an more efficient method to figure
+#         this out. For example to combine those two parts into one function.
 
 
 # 2.)
@@ -156,7 +159,8 @@ def semordnilap(file):
                   
     
     print(returnList)     # print the list of semrdnilaps
-    
+#Comment: Still, you method works but maybe you have defined so many words to make the logic very complicated so that it take
+#         a while to follow it. You can try to simplify your logic or improve the efficiency with advanced functions.
 
 # 3.)
 def char_freq_table(file):
